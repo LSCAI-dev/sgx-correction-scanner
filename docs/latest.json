@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2026-10-09",
+    "close": 73.36,
+    "rsi": 31.3,
+    "macd": -0.249,
+    "hist": -0.51,
+    "cmf": -0.149,
+    "sma20": 77.15,
+    "atr": 1.23,
+    "hi40": 78.65,
+    "low20": 73.48,
+    "dist_days": 4,
+    "flags": {
+      "RSI_DIV": false,
+      "MACD_FADE": false,
+      "MACD_NEG": true,
+      "OBV_DIV": false,
+      "CMF_NEG": false,
+      "DIST_DAYS": true,
+      "LOWER_HIGH": false,
+      "BELOW_20": true,
+      "HA_BEAR": true,
+      "SECTOR": true,
+      "YIELD_UP": false,
+      "EARNINGS": true
+    },
+    "hard": {
+      "BREAKDOWN": true,
+      "GAP_DOWN": false
+    },
+    "reentry": {
+      "WASHED_OUT": true,
+      "RSI_RECOVER": false,
+      "MACD_TURN": false,
+      "HA_GREEN2": false,
+      "HIGHER_LOW": false
+    },
+    "ticker": "D05.SI",
+    "name": "DBS",
+    "score": 6,
+    "level": "BREAK"
+  },
+  {
+    "date": "2026-10-09",
+    "close": 29.0,
+    "rsi": 30.6,
+    "macd": -0.262,
+    "hist": -0.367,
+    "cmf": -0.15,
+    "sma20": 31.39,
+    "atr": 0.67,
+    "hi40": 32.27,
+    "low20": 28.86,
+    "dist_days": 4,
+    "flags": {
+      "RSI_DIV": false,
+      "MACD_FADE": false,
+      "MACD_NEG": true,
+      "OBV_DIV": false,
+      "CMF_NEG": false,
+      "DIST_DAYS": true,
+      "LOWER_HIGH": false,
+      "BELOW_20": true,
+      "HA_BEAR": true,
+      "SECTOR": true,
+      "YIELD_UP": false,
+      "EARNINGS": true
+    },
+    "hard": {
+      "BREAKDOWN": false,
+      "GAP_DOWN": false
+    },
+    "reentry": {
+      "WASHED_OUT": true,
+      "RSI_RECOVER": false,
+      "MACD_TURN": false,
+      "HA_GREEN2": false,
+      "HIGHER_LOW": false
+    },
+    "ticker": "O39.SI",
+    "name": "OCBC",
+    "score": 6,
+    "level": "RED"
+  },
+  {
+    "date": "2026-10-09",
+    "close": 39.96,
+    "rsi": 34.5,
+    "macd": -0.059,
+    "hist": -0.296,
+    "cmf": -0.049,
+    "sma20": 42.33,
+    "atr": 1.02,
+    "hi40": 43.72,
+    "low20": 40.2,
+    "dist_days": 4,
+    "flags": {
+      "RSI_DIV": false,
+      "MACD_FADE": false,
+      "MACD_NEG": true,
+      "OBV_DIV": false,
+      "CMF_NEG": false,
+      "DIST_DAYS": true,
+      "LOWER_HIGH": false,
+      "BELOW_20": false,
+      "HA_BEAR": true,
+      "SECTOR": true,
+      "YIELD_UP": false,
+      "EARNINGS": false
+    },
+    "hard": {
+      "BREAKDOWN": false,
+      "GAP_DOWN": false
+    },
+    "reentry": {
+      "WASHED_OUT": true,
+      "RSI_RECOVER": false,
+      "MACD_TURN": false,
+      "HA_GREEN2": false,
+      "HIGHER_LOW": false
+    },
+    "ticker": "U11.SI",
+    "name": "UOB",
+    "score": 4,
+    "level": "AMBER"
+  }
+]
