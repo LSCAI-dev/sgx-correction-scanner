@@ -1,0 +1,17 @@
+yaml
+      - run: pip install -r scanner/requirements.txt
+      - name: Run scanner
+        working-directory: scanner
+        # (env block unchanged)
+        run: python correction_scanner.py
+      - name: Save report
+        run: |
+          mkdir -p scanner-reports/history
+          cp scanner/output/latest.txt scanner-reports/latest.txt
+          cp scanner/output/latest.json scanner-reports/latest.json
+          cp scanner/output/latest.txt "scanner-reports/history/$(date -u +%Y-%m-%d).txt"
+          git config user.name "scan-bot"
+          git config user.email "scan-bot@users.noreply.github.com"
+          git add scanner-reports
+          git commit -m "scan $(date -u +%Y-%m-%d)" || echo "nothing to commit"
+          git push
