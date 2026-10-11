@@ -1,17 +1,37 @@
-yaml
-      - run: pip install -r scanner/requirements.txt
+name: SGX correction scan
+
+on:
+  schedule:
+    # 17:35 SGT Mon-Fri (09:35 UTC) — after SGX close
+    - cron: "35 9 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
       - name: Run scanner
-        working-directory: scanner
-        # (env block unchanged)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ALERT_ONLY: "0"   # "1" = only message on AMBER/RED/BREAK
         run: python correction_scanner.py
-      - name: Save report
+      - name: Save report to repo (for GitHub Pages / history)
         run: |
-          mkdir -p scanner-reports/history
-          cp scanner/output/latest.txt scanner-reports/latest.txt
-          cp scanner/output/latest.json scanner-reports/latest.json
-          cp scanner/output/latest.txt "scanner-reports/history/$(date -u +%Y-%m-%d).txt"
+          mkdir -p docs/history
+          cp output/latest.txt docs/latest.txt
+          cp output/latest.json docs/latest.json
+          cp output/latest.txt "docs/history/$(date -u +%Y-%m-%d).txt"
           git config user.name "scan-bot"
           git config user.email "scan-bot@users.noreply.github.com"
-          git add scanner-reports
+          git add docs
           git commit -m "scan $(date -u +%Y-%m-%d)" || echo "nothing to commit"
           git push
