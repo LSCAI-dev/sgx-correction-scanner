@@ -51,6 +51,9 @@ import json
 import os
 import sys
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+SGT = ZoneInfo("Asia/Singapore")
 
 import numpy as np
 import pandas as pd
@@ -253,7 +256,7 @@ def yield_change_bp(live: bool) -> float | None:
 
 # ----------------------------------------------------------------- report
 def run(data: dict, live: bool, history: int = 0):
-    today = dt.date.today()
+    today = dt.datetime.now(SGT).date()
     ybp = yield_change_bp(live)
     results = {}
     for t, raw in data.items():
@@ -284,7 +287,7 @@ def run(data: dict, live: bool, history: int = 0):
 
     order = {"BREAK": 0, "RED": 1, "AMBER": 2, "GREEN": 3}
     rows.sort(key=lambda x: (order[x["level"]], -x["score"]))
-    stamp = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
+    stamp = dt.datetime.now(SGT).strftime("%Y-%m-%d %H:%M")
     lines = [f"SGX Correction Scan — {stamp} SGT (data: {'Yahoo/yfinance' if live else 'CSV'}, delayed)"]
     if ybp is not None:
         lines.append(f"US10Y 10-session change: {ybp:+.0f}bp")
