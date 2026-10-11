@@ -1,4 +1,4 @@
-SGX Correction Scan — 2026-10-11 17:08 SGT (data: Yahoo/yfinance, delayed)
+SGX Correction Scan — 2026-10-12 01:15 SGT (data: Yahoo/yfinance, delayed)
 US10Y 10-session change: +6bp
 
 [BREAK] DBS 73.36  score 6/12
