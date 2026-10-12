@@ -107,7 +107,7 @@
       "HA_BEAR": true,
       "SECTOR": true,
       "YIELD_UP": false,
-      "EARNINGS": false
+      "EARNINGS": true
     },
     "hard": {
       "BREAKDOWN": false,
@@ -122,7 +122,7 @@
     },
     "ticker": "U11.SI",
     "name": "UOB",
-    "score": 4,
-    "level": "AMBER"
+    "score": 5,
+    "level": "RED"
   }
 ]
