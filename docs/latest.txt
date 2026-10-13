@@ -1,5 +1,5 @@
-SGX Correction Scan — 2026-10-13 03:16 SGT (data: Yahoo/yfinance, delayed)
-US10Y 10-session change: +0bp
+SGX Correction Scan — 2026-10-14 01:06 SGT (data: Yahoo/yfinance, delayed)
+US10Y 10-session change: -3bp
 
 [BREAK] DBS 73.36  score 6/12
   RSI 31.3 | MACD hist -0.51 | CMF -0.149 | 20SMA 77.15
