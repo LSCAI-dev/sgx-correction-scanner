@@ -1,55 +1,13 @@
 [
   {
-    "date": "2026-10-15",
-    "close": 28.99,
-    "rsi": 31.8,
-    "macd": -0.597,
-    "hist": -0.334,
-    "cmf": -0.083,
-    "sma20": 30.93,
-    "atr": 0.63,
-    "hi40": 32.27,
-    "low20": 28.8,
-    "dist_days": 3,
-    "flags": {
-      "RSI_DIV": false,
-      "MACD_FADE": false,
-      "MACD_NEG": true,
-      "OBV_DIV": false,
-      "CMF_NEG": false,
-      "DIST_DAYS": true,
-      "LOWER_HIGH": false,
-      "BELOW_20": true,
-      "HA_BEAR": true,
-      "SECTOR": true,
-      "YIELD_UP": false,
-      "EARNINGS": true
-    },
-    "hard": {
-      "BREAKDOWN": false,
-      "GAP_DOWN": false
-    },
-    "reentry": {
-      "WASHED_OUT": true,
-      "RSI_RECOVER": false,
-      "MACD_TURN": true,
-      "HA_GREEN2": false,
-      "HIGHER_LOW": false
-    },
-    "ticker": "O39.SI",
-    "name": "OCBC",
-    "score": 6,
-    "level": "RED"
-  },
-  {
-    "date": "2026-10-15",
-    "close": 73.75,
-    "rsi": 35.9,
-    "macd": -0.724,
-    "hist": -0.474,
-    "cmf": -0.11,
-    "sma20": 76.57,
-    "atr": 1.27,
+    "date": "2026-10-16",
+    "close": 74.11,
+    "rsi": 38.6,
+    "macd": -0.77,
+    "hist": -0.415,
+    "cmf": -0.122,
+    "sma20": 76.43,
+    "atr": 1.24,
     "hi40": 78.65,
     "low20": 72.5,
     "dist_days": 5,
@@ -76,7 +34,7 @@
       "RSI_RECOVER": false,
       "MACD_TURN": true,
       "HA_GREEN2": false,
-      "HIGHER_LOW": false
+      "HIGHER_LOW": true
     },
     "ticker": "D05.SI",
     "name": "DBS",
@@ -84,14 +42,14 @@
     "level": "RED"
   },
   {
-    "date": "2026-10-15",
-    "close": 41.69,
-    "rsi": 48.8,
-    "macd": -0.242,
-    "hist": -0.199,
-    "cmf": 0.002,
+    "date": "2026-10-16",
+    "close": 41.61,
+    "rsi": 48.2,
+    "macd": -0.223,
+    "hist": -0.144,
+    "cmf": -0.045,
     "sma20": 42.2,
-    "atr": 1.02,
+    "atr": 1.0,
     "hi40": 43.72,
     "low20": 39.4,
     "dist_days": 4,
@@ -118,10 +76,52 @@
       "RSI_RECOVER": true,
       "MACD_TURN": true,
       "HA_GREEN2": true,
-      "HIGHER_LOW": false
+      "HIGHER_LOW": true
     },
     "ticker": "U11.SI",
     "name": "UOB",
+    "score": 5,
+    "level": "RED"
+  },
+  {
+    "date": "2026-10-16",
+    "close": 29.0,
+    "rsi": 32.0,
+    "macd": -0.632,
+    "hist": -0.295,
+    "cmf": -0.183,
+    "sma20": 30.81,
+    "atr": 0.64,
+    "hi40": 32.27,
+    "low20": 28.66,
+    "dist_days": 3,
+    "flags": {
+      "RSI_DIV": false,
+      "MACD_FADE": false,
+      "MACD_NEG": true,
+      "OBV_DIV": false,
+      "CMF_NEG": false,
+      "DIST_DAYS": true,
+      "LOWER_HIGH": false,
+      "BELOW_20": true,
+      "HA_BEAR": false,
+      "SECTOR": true,
+      "YIELD_UP": false,
+      "EARNINGS": true
+    },
+    "hard": {
+      "BREAKDOWN": false,
+      "GAP_DOWN": false
+    },
+    "reentry": {
+      "WASHED_OUT": true,
+      "RSI_RECOVER": false,
+      "MACD_TURN": true,
+      "HA_GREEN2": false,
+      "HIGHER_LOW": false
+    },
+    "ticker": "O39.SI",
+    "name": "OCBC",
     "score": 5,
     "level": "RED"
   }
