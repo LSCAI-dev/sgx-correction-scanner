@@ -1,5 +1,5 @@
-SGX Correction Scan — 2026-10-27 23:31 SGT (data: Yahoo/yfinance, delayed)
-US10Y 10-session change: -24bp
+SGX Correction Scan — 2026-10-29 00:14 SGT (data: Yahoo/yfinance, delayed)
+US10Y 10-session change: -16bp
 
 [AMBER] DBS 73.92  score 4/12
   RSI 38.1 | MACD hist -0.06 | CMF -0.249 | 20SMA 75.22
