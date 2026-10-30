@@ -1,16 +1,16 @@
 [
   {
-    "date": "2026-10-28",
-    "close": 73.99,
-    "rsi": 38.8,
-    "macd": -0.687,
-    "hist": -0.045,
-    "cmf": -0.214,
-    "sma20": 75.05,
-    "atr": 0.99,
+    "date": "2026-10-29",
+    "close": 73.8,
+    "rsi": 37.5,
+    "macd": -0.691,
+    "hist": -0.039,
+    "cmf": -0.248,
+    "sma20": 74.87,
+    "atr": 0.89,
     "hi40": 78.65,
     "low20": 72.5,
-    "dist_days": 2,
+    "dist_days": 1,
     "flags": {
       "RSI_DIV": false,
       "MACD_FADE": false,
@@ -42,17 +42,17 @@
     "level": "AMBER"
   },
   {
-    "date": "2026-10-28",
-    "close": 41.54,
-    "rsi": 48.1,
-    "macd": -0.144,
-    "hist": -0.007,
-    "cmf": -0.085,
-    "sma20": 41.72,
-    "atr": 0.72,
+    "date": "2026-10-29",
+    "close": 41.5,
+    "rsi": 47.7,
+    "macd": -0.139,
+    "hist": -0.001,
+    "cmf": -0.14,
+    "sma20": 41.63,
+    "atr": 0.66,
     "hi40": 43.72,
     "low20": 39.4,
-    "dist_days": 1,
+    "dist_days": 0,
     "flags": {
       "RSI_DIV": false,
       "MACD_FADE": false,
@@ -74,9 +74,9 @@
     "reentry": {
       "WASHED_OUT": false,
       "RSI_RECOVER": true,
-      "MACD_TURN": false,
-      "HA_GREEN2": false,
-      "HIGHER_LOW": true
+      "MACD_TURN": true,
+      "HA_GREEN2": true,
+      "HIGHER_LOW": false
     },
     "ticker": "U11.SI",
     "name": "UOB",
@@ -84,21 +84,21 @@
     "level": "AMBER"
   },
   {
-    "date": "2026-10-28",
-    "close": 29.03,
-    "rsi": 36.1,
-    "macd": -0.573,
-    "hist": -0.002,
-    "cmf": -0.216,
-    "sma20": 29.63,
-    "atr": 0.44,
+    "date": "2026-10-29",
+    "close": 29.34,
+    "rsi": 42.5,
+    "macd": -0.521,
+    "hist": 0.041,
+    "cmf": -0.184,
+    "sma20": 29.52,
+    "atr": 0.43,
     "hi40": 32.27,
     "low20": 28.51,
     "dist_days": 0,
     "flags": {
       "RSI_DIV": false,
       "MACD_FADE": false,
-      "MACD_NEG": true,
+      "MACD_NEG": false,
       "OBV_DIV": false,
       "CMF_NEG": false,
       "DIST_DAYS": false,
@@ -122,7 +122,7 @@
     },
     "ticker": "O39.SI",
     "name": "OCBC",
-    "score": 3,
-    "level": "AMBER"
+    "score": 2,
+    "level": "GREEN"
   }
 ]

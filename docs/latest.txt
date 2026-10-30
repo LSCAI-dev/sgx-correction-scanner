@@ -1,20 +1,21 @@
-SGX Correction Scan — 2026-10-30 00:23 SGT (data: Yahoo/yfinance, delayed)
-US10Y 10-session change: -9bp
+SGX Correction Scan — 2026-10-31 00:11 SGT (data: Yahoo/yfinance, delayed)
+US10Y 10-session change: -14bp
 
-[AMBER] DBS 73.99  score 3/12
-  RSI 38.8 | MACD hist -0.045 | CMF -0.214 | 20SMA 75.05
-  40d high 78.65 | neckline (20d low) 72.5 | ATR 0.99
+[AMBER] DBS 73.8  score 3/12
+  RSI 37.5 | MACD hist -0.039 | CMF -0.248 | 20SMA 74.87
+  40d high 78.65 | neckline (20d low) 72.5 | ATR 0.89
   signals: MACD_NEG, BELOW_20, EARNINGS
 
-[AMBER] UOB 41.54  score 3/12
-  RSI 48.1 | MACD hist -0.007 | CMF -0.085 | 20SMA 41.72
-  40d high 43.72 | neckline (20d low) 39.4 | ATR 0.72
+[AMBER] UOB 41.5  score 3/12
+  RSI 47.7 | MACD hist -0.001 | CMF -0.14 | 20SMA 41.63
+  40d high 43.72 | neckline (20d low) 39.4 | ATR 0.66
   signals: MACD_NEG, BELOW_20, EARNINGS
+  RE-ENTRY watching (3/5): RSI_RECOVER, MACD_TURN, HA_GREEN2
 
-[AMBER] OCBC 29.03  score 3/12
-  RSI 36.1 | MACD hist -0.002 | CMF -0.216 | 20SMA 29.63
-  40d high 32.27 | neckline (20d low) 28.51 | ATR 0.44
-  signals: MACD_NEG, BELOW_20, EARNINGS
+[GREEN] OCBC 29.34  score 2/12
+  RSI 42.5 | MACD hist 0.041 | CMF -0.184 | 20SMA 29.52
+  40d high 32.27 | neckline (20d low) 28.51 | ATR 0.43
+  signals: BELOW_20, EARNINGS
   RE-ENTRY CONFIRMED (4/5): WASHED_OUT, MACD_TURN, HA_GREEN2, HIGHER_LOW
 
 GREEN 0-2 hold | AMBER 3-4 tighten stops | RED 5+ reduce | BREAK act on plan.
