@@ -1,23 +1,23 @@
 [
   {
-    "date": "2026-10-30",
-    "close": 73.13,
-    "rsi": 33.2,
-    "macd": -0.74,
-    "hist": -0.071,
-    "cmf": -0.224,
-    "sma20": 74.66,
-    "atr": 0.88,
+    "date": "2026-11-02",
+    "close": 71.71,
+    "rsi": 26.4,
+    "macd": -0.883,
+    "hist": -0.171,
+    "cmf": -0.21,
+    "sma20": 74.36,
+    "atr": 0.98,
     "hi40": 78.56,
     "low20": 72.5,
-    "dist_days": 2,
+    "dist_days": 3,
     "flags": {
       "RSI_DIV": false,
       "MACD_FADE": false,
       "MACD_NEG": true,
       "OBV_DIV": false,
       "CMF_NEG": false,
-      "DIST_DAYS": false,
+      "DIST_DAYS": true,
       "LOWER_HIGH": false,
       "BELOW_20": true,
       "HA_BEAR": true,
@@ -26,7 +26,7 @@
       "EARNINGS": true
     },
     "hard": {
-      "BREAKDOWN": false,
+      "BREAKDOWN": true,
       "GAP_DOWN": false
     },
     "reentry": {
@@ -38,18 +38,18 @@
     },
     "ticker": "D05.SI",
     "name": "DBS",
-    "score": 4,
-    "level": "AMBER"
+    "score": 5,
+    "level": "BREAK"
   },
   {
-    "date": "2026-10-30",
-    "close": 41.37,
-    "rsi": 46.3,
-    "macd": -0.143,
-    "hist": -0.005,
-    "cmf": -0.139,
-    "sma20": 41.54,
-    "atr": 0.63,
+    "date": "2026-11-02",
+    "close": 40.66,
+    "rsi": 39.6,
+    "macd": -0.202,
+    "hist": -0.051,
+    "cmf": -0.166,
+    "sma20": 41.42,
+    "atr": 0.64,
     "hi40": 43.72,
     "low20": 39.4,
     "dist_days": 0,
@@ -73,9 +73,9 @@
     },
     "reentry": {
       "WASHED_OUT": false,
-      "RSI_RECOVER": true,
+      "RSI_RECOVER": false,
       "MACD_TURN": false,
-      "HA_GREEN2": true,
+      "HA_GREEN2": false,
       "HIGHER_LOW": false
     },
     "ticker": "U11.SI",
@@ -84,17 +84,17 @@
     "level": "AMBER"
   },
   {
-    "date": "2026-10-30",
-    "close": 29.29,
-    "rsi": 41.7,
-    "macd": -0.477,
-    "hist": 0.067,
-    "cmf": -0.177,
-    "sma20": 29.41,
-    "atr": 0.43,
+    "date": "2026-11-02",
+    "close": 28.32,
+    "rsi": 30.8,
+    "macd": -0.515,
+    "hist": 0.023,
+    "cmf": -0.215,
+    "sma20": 29.23,
+    "atr": 0.48,
     "hi40": 32.22,
     "low20": 28.51,
-    "dist_days": 0,
+    "dist_days": 1,
     "flags": {
       "RSI_DIV": false,
       "MACD_FADE": false,
@@ -116,9 +116,9 @@
     "reentry": {
       "WASHED_OUT": true,
       "RSI_RECOVER": false,
-      "MACD_TURN": true,
-      "HA_GREEN2": true,
-      "HIGHER_LOW": true
+      "MACD_TURN": false,
+      "HA_GREEN2": false,
+      "HIGHER_LOW": false
     },
     "ticker": "O39.SI",
     "name": "OCBC",
