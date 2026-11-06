@@ -1,0 +1,24 @@
+SGX Correction Scan — 2026-11-07 00:54 SGT (data: Yahoo/yfinance, delayed)
+US10Y 10-session change: -12bp
+
+[BREAK] UOB 37.81  score 5/12
+  RSI 23.6 | MACD hist -0.352 | CMF 0.004 | 20SMA 40.94
+  40d high 43.72 | neckline (20d low) 37.63 | ATR 0.81
+  signals: MACD_NEG, BELOW_20, HA_BEAR, SECTOR, EARNINGS
+  HARD: GAP_DOWN
+  RE-ENTRY watching (1/5): WASHED_OUT
+
+[AMBER] DBS 71.2  score 4/12
+  RSI 27.8 | MACD hist -0.298 | CMF 0.072 | 20SMA 73.51
+  40d high 78.56 | neckline (20d low) 69.31 | ATR 1.16
+  signals: MACD_NEG, DIST_DAYS, BELOW_20, SECTOR
+  RE-ENTRY watching (1/5): WASHED_OUT
+
+[AMBER] OCBC 27.93  score 3/12
+  RSI 28.8 | MACD hist -0.06 | CMF 0.053 | 20SMA 28.84
+  40d high 32.22 | neckline (20d low) 27.22 | ATR 0.58
+  signals: MACD_NEG, BELOW_20, SECTOR
+  RE-ENTRY watching (1/5): WASHED_OUT
+
+GREEN 0-2 hold | AMBER 3-4 tighten stops | RED 5+ reduce | BREAK act on plan.
+Verify on broker terminal before acting.
