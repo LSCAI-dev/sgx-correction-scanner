@@ -1,5 +1,5 @@
-SGX Correction Scan — 2026-11-10 03:59 SGT (data: Yahoo/yfinance, delayed)
-US10Y 10-session change: -13bp
+SGX Correction Scan — 2026-11-11 01:15 SGT (data: Yahoo/yfinance, delayed)
+US10Y 10-session change: +2bp
 
 [BREAK] UOB 36.88  score 6/12
   RSI 20.5 | MACD hist -0.464 | CMF 0.002 | 20SMA 40.78
