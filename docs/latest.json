@@ -1,15 +1,15 @@
 [
   {
-    "date": "2026-11-06",
-    "close": 36.88,
-    "rsi": 20.5,
-    "macd": -0.9,
-    "hist": -0.464,
-    "cmf": 0.002,
-    "sma20": 40.78,
-    "atr": 0.87,
+    "date": "2026-11-10",
+    "close": 37.38,
+    "rsi": 26.1,
+    "macd": -1.028,
+    "hist": -0.473,
+    "cmf": 0.034,
+    "sma20": 40.63,
+    "atr": 0.9,
     "hi40": 43.72,
-    "low20": 37.3,
+    "low20": 36.54,
     "dist_days": 3,
     "flags": {
       "RSI_DIV": false,
@@ -26,7 +26,7 @@
       "EARNINGS": true
     },
     "hard": {
-      "BREAKDOWN": true,
+      "BREAKDOWN": false,
       "GAP_DOWN": false
     },
     "reentry": {
@@ -39,19 +39,19 @@
     "ticker": "U11.SI",
     "name": "UOB",
     "score": 6,
-    "level": "BREAK"
+    "level": "RED"
   },
   {
-    "date": "2026-11-06",
-    "close": 69.72,
-    "rsi": 22.5,
-    "macd": -1.378,
-    "hist": -0.355,
-    "cmf": 0.143,
-    "sma20": 73.32,
-    "atr": 1.21,
+    "date": "2026-11-10",
+    "close": 70.37,
+    "rsi": 28.9,
+    "macd": -1.425,
+    "hist": -0.321,
+    "cmf": 0.117,
+    "sma20": 73.15,
+    "atr": 1.26,
     "hi40": 78.56,
-    "low20": 69.1,
+    "low20": 69.0,
     "dist_days": 4,
     "flags": {
       "RSI_DIV": false,
@@ -62,14 +62,14 @@
       "DIST_DAYS": true,
       "LOWER_HIGH": false,
       "BELOW_20": true,
-      "HA_BEAR": true,
+      "HA_BEAR": false,
       "SECTOR": true,
       "YIELD_UP": false,
       "EARNINGS": false
     },
     "hard": {
       "BREAKDOWN": false,
-      "GAP_DOWN": true
+      "GAP_DOWN": false
     },
     "reentry": {
       "WASHED_OUT": true,
@@ -80,18 +80,18 @@
     },
     "ticker": "D05.SI",
     "name": "DBS",
-    "score": 5,
-    "level": "BREAK"
+    "score": 4,
+    "level": "AMBER"
   },
   {
-    "date": "2026-11-06",
-    "close": 27.73,
-    "rsi": 27.1,
-    "macd": -0.659,
-    "hist": -0.068,
-    "cmf": 0.085,
-    "sma20": 28.77,
-    "atr": 0.59,
+    "date": "2026-11-10",
+    "close": 28.6,
+    "rsi": 42.8,
+    "macd": -0.601,
+    "hist": -0.008,
+    "cmf": 0.107,
+    "sma20": 28.75,
+    "atr": 0.65,
     "hi40": 32.22,
     "low20": 27.22,
     "dist_days": 3,
@@ -111,7 +111,7 @@
     },
     "hard": {
       "BREAKDOWN": false,
-      "GAP_DOWN": true
+      "GAP_DOWN": false
     },
     "reentry": {
       "WASHED_OUT": true,
@@ -123,6 +123,6 @@
     "ticker": "O39.SI",
     "name": "OCBC",
     "score": 4,
-    "level": "BREAK"
+    "level": "AMBER"
   }
 ]
