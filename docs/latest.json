@@ -1,55 +1,13 @@
 [
   {
-    "date": "2026-11-10",
-    "close": 37.38,
-    "rsi": 26.1,
-    "macd": -1.028,
-    "hist": -0.473,
-    "cmf": 0.034,
-    "sma20": 40.63,
-    "atr": 0.9,
-    "hi40": 43.72,
-    "low20": 36.54,
-    "dist_days": 3,
-    "flags": {
-      "RSI_DIV": false,
-      "MACD_FADE": false,
-      "MACD_NEG": true,
-      "OBV_DIV": false,
-      "CMF_NEG": false,
-      "DIST_DAYS": true,
-      "LOWER_HIGH": false,
-      "BELOW_20": true,
-      "HA_BEAR": true,
-      "SECTOR": true,
-      "YIELD_UP": false,
-      "EARNINGS": true
-    },
-    "hard": {
-      "BREAKDOWN": false,
-      "GAP_DOWN": false
-    },
-    "reentry": {
-      "WASHED_OUT": true,
-      "RSI_RECOVER": false,
-      "MACD_TURN": false,
-      "HA_GREEN2": false,
-      "HIGHER_LOW": false
-    },
-    "ticker": "U11.SI",
-    "name": "UOB",
-    "score": 6,
-    "level": "RED"
-  },
-  {
-    "date": "2026-11-10",
-    "close": 70.37,
-    "rsi": 28.9,
-    "macd": -1.425,
-    "hist": -0.321,
-    "cmf": 0.117,
-    "sma20": 73.15,
-    "atr": 1.26,
+    "date": "2026-11-11",
+    "close": 70.97,
+    "rsi": 34.3,
+    "macd": -1.397,
+    "hist": -0.235,
+    "cmf": 0.127,
+    "sma20": 72.97,
+    "atr": 1.3,
     "hi40": 78.56,
     "low20": 69.0,
     "dist_days": 4,
@@ -74,8 +32,8 @@
     "reentry": {
       "WASHED_OUT": true,
       "RSI_RECOVER": false,
-      "MACD_TURN": false,
-      "HA_GREEN2": false,
+      "MACD_TURN": true,
+      "HA_GREEN2": true,
       "HIGHER_LOW": false
     },
     "ticker": "D05.SI",
@@ -84,16 +42,16 @@
     "level": "AMBER"
   },
   {
-    "date": "2026-11-10",
-    "close": 28.6,
-    "rsi": 42.8,
-    "macd": -0.601,
-    "hist": -0.008,
-    "cmf": 0.107,
-    "sma20": 28.75,
-    "atr": 0.65,
-    "hi40": 32.22,
-    "low20": 27.22,
+    "date": "2026-11-11",
+    "close": 37.58,
+    "rsi": 28.3,
+    "macd": -1.1,
+    "hist": -0.437,
+    "cmf": 0.001,
+    "sma20": 40.46,
+    "atr": 0.89,
+    "hi40": 43.72,
+    "low20": 36.5,
     "dist_days": 3,
     "flags": {
       "RSI_DIV": false,
@@ -120,9 +78,51 @@
       "HA_GREEN2": false,
       "HIGHER_LOW": false
     },
-    "ticker": "O39.SI",
-    "name": "OCBC",
+    "ticker": "U11.SI",
+    "name": "UOB",
     "score": 4,
     "level": "AMBER"
+  },
+  {
+    "date": "2026-11-11",
+    "close": 28.82,
+    "rsi": 46.0,
+    "macd": -0.531,
+    "hist": 0.049,
+    "cmf": 0.071,
+    "sma20": 28.73,
+    "atr": 0.67,
+    "hi40": 32.22,
+    "low20": 27.22,
+    "dist_days": 3,
+    "flags": {
+      "RSI_DIV": false,
+      "MACD_FADE": false,
+      "MACD_NEG": false,
+      "OBV_DIV": false,
+      "CMF_NEG": false,
+      "DIST_DAYS": true,
+      "LOWER_HIGH": false,
+      "BELOW_20": false,
+      "HA_BEAR": false,
+      "SECTOR": true,
+      "YIELD_UP": false,
+      "EARNINGS": false
+    },
+    "hard": {
+      "BREAKDOWN": false,
+      "GAP_DOWN": false
+    },
+    "reentry": {
+      "WASHED_OUT": true,
+      "RSI_RECOVER": true,
+      "MACD_TURN": true,
+      "HA_GREEN2": true,
+      "HIGHER_LOW": false
+    },
+    "ticker": "O39.SI",
+    "name": "OCBC",
+    "score": 2,
+    "level": "GREEN"
   }
 ]
