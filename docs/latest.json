@@ -1,57 +1,15 @@
 [
   {
-    "date": "2026-11-18",
-    "close": 66.94,
-    "rsi": 20.7,
-    "macd": -1.792,
-    "hist": -0.351,
-    "cmf": 0.05,
-    "sma20": 71.66,
-    "atr": 1.46,
-    "hi40": 78.56,
-    "low20": 67.54,
-    "dist_days": 6,
-    "flags": {
-      "RSI_DIV": false,
-      "MACD_FADE": false,
-      "MACD_NEG": true,
-      "OBV_DIV": false,
-      "CMF_NEG": false,
-      "DIST_DAYS": true,
-      "LOWER_HIGH": false,
-      "BELOW_20": true,
-      "HA_BEAR": true,
-      "SECTOR": true,
-      "YIELD_UP": true,
-      "EARNINGS": false
-    },
-    "hard": {
-      "BREAKDOWN": true,
-      "GAP_DOWN": true
-    },
-    "reentry": {
-      "WASHED_OUT": true,
-      "RSI_RECOVER": false,
-      "MACD_TURN": false,
-      "HA_GREEN2": false,
-      "HIGHER_LOW": false
-    },
-    "ticker": "D05.SI",
-    "name": "DBS",
-    "score": 6,
-    "level": "BREAK"
-  },
-  {
-    "date": "2026-11-18",
-    "close": 36.13,
-    "rsi": 23.0,
-    "macd": -1.307,
-    "hist": -0.273,
-    "cmf": -0.029,
-    "sma20": 39.37,
+    "date": "2026-11-19",
+    "close": 36.14,
+    "rsi": 23.2,
+    "macd": -1.354,
+    "hist": -0.256,
+    "cmf": -0.003,
+    "sma20": 39.08,
     "atr": 0.91,
     "hi40": 43.72,
-    "low20": 36.5,
+    "low20": 35.8,
     "dist_days": 3,
     "flags": {
       "RSI_DIV": false,
@@ -64,7 +22,7 @@
       "BELOW_20": true,
       "HA_BEAR": true,
       "SECTOR": true,
-      "YIELD_UP": true,
+      "YIELD_UP": false,
       "EARNINGS": false
     },
     "hard": {
@@ -80,20 +38,62 @@
     },
     "ticker": "U11.SI",
     "name": "UOB",
-    "score": 7,
+    "score": 6,
     "level": "RED"
   },
   {
-    "date": "2026-11-18",
-    "close": 27.4,
-    "rsi": 31.3,
-    "macd": -0.517,
-    "hist": -0.006,
+    "date": "2026-11-19",
+    "close": 67.34,
+    "rsi": 24.3,
+    "macd": -1.871,
+    "hist": -0.345,
+    "cmf": 0.053,
+    "sma20": 71.29,
+    "atr": 1.49,
+    "hi40": 78.56,
+    "low20": 65.9,
+    "dist_days": 6,
+    "flags": {
+      "RSI_DIV": false,
+      "MACD_FADE": false,
+      "MACD_NEG": true,
+      "OBV_DIV": false,
+      "CMF_NEG": false,
+      "DIST_DAYS": true,
+      "LOWER_HIGH": false,
+      "BELOW_20": true,
+      "HA_BEAR": true,
+      "SECTOR": true,
+      "YIELD_UP": false,
+      "EARNINGS": false
+    },
+    "hard": {
+      "BREAKDOWN": false,
+      "GAP_DOWN": false
+    },
+    "reentry": {
+      "WASHED_OUT": true,
+      "RSI_RECOVER": false,
+      "MACD_TURN": false,
+      "HA_GREEN2": false,
+      "HIGHER_LOW": false
+    },
+    "ticker": "D05.SI",
+    "name": "DBS",
+    "score": 5,
+    "level": "RED"
+  },
+  {
+    "date": "2026-11-19",
+    "close": 27.42,
+    "rsi": 31.7,
+    "macd": -0.544,
+    "hist": -0.027,
     "cmf": 0.019,
-    "sma20": 28.53,
-    "atr": 0.75,
+    "sma20": 28.44,
+    "atr": 0.73,
     "hi40": 32.22,
-    "low20": 27.22,
+    "low20": 27.01,
     "dist_days": 4,
     "flags": {
       "RSI_DIV": false,
@@ -106,7 +106,7 @@
       "BELOW_20": true,
       "HA_BEAR": true,
       "SECTOR": true,
-      "YIELD_UP": true,
+      "YIELD_UP": false,
       "EARNINGS": false
     },
     "hard": {
@@ -122,7 +122,7 @@
     },
     "ticker": "O39.SI",
     "name": "OCBC",
-    "score": 6,
+    "score": 5,
     "level": "RED"
   }
 ]
