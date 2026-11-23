@@ -1,21 +1,22 @@
-SGX Correction Scan — 2026-11-21 01:58 SGT (data: Yahoo/yfinance, delayed)
-US10Y 10-session change: +8bp
+SGX Correction Scan — 2026-11-24 05:38 SGT (data: Yahoo/yfinance, delayed)
+US10Y 10-session change: +5bp
 
-[RED] UOB 36.14  score 6/12
-  RSI 23.2 | MACD hist -0.256 | CMF -0.003 | 20SMA 39.08
-  40d high 43.72 | neckline (20d low) 35.8 | ATR 0.91
+[BREAK] OCBC 26.54  score 5/12
+  RSI 25.3 | MACD hist -0.09 | CMF -0.022 | 20SMA 28.31
+  40d high 32.22 | neckline (20d low) 27.01 | ATR 0.77
+  signals: MACD_NEG, DIST_DAYS, BELOW_20, HA_BEAR, SECTOR
+  HARD: BREAKDOWN
+  RE-ENTRY watching (1/5): WASHED_OUT
+
+[RED] UOB 35.42  score 6/12
+  RSI 20.5 | MACD hist -0.267 | CMF -0.045 | 20SMA 38.76
+  40d high 43.72 | neckline (20d low) 35.75 | ATR 0.94
   signals: MACD_NEG, DIST_DAYS, LOWER_HIGH, BELOW_20, HA_BEAR, SECTOR
   RE-ENTRY watching (1/5): WASHED_OUT
 
-[RED] DBS 67.34  score 5/12
-  RSI 24.3 | MACD hist -0.345 | CMF 0.053 | 20SMA 71.29
-  40d high 78.56 | neckline (20d low) 65.9 | ATR 1.49
-  signals: MACD_NEG, DIST_DAYS, BELOW_20, HA_BEAR, SECTOR
-  RE-ENTRY watching (1/5): WASHED_OUT
-
-[RED] OCBC 27.42  score 5/12
-  RSI 31.7 | MACD hist -0.027 | CMF 0.019 | 20SMA 28.44
-  40d high 32.22 | neckline (20d low) 27.01 | ATR 0.73
+[RED] DBS 66.11  score 5/12
+  RSI 21.2 | MACD hist -0.387 | CMF 0.014 | 20SMA 70.87
+  40d high 78.56 | neckline (20d low) 65.9 | ATR 1.52
   signals: MACD_NEG, DIST_DAYS, BELOW_20, HA_BEAR, SECTOR
   RE-ENTRY watching (1/5): WASHED_OUT
 
