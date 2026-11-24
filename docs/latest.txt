@@ -1,5 +1,5 @@
-SGX Correction Scan — 2026-11-24 05:38 SGT (data: Yahoo/yfinance, delayed)
-US10Y 10-session change: +5bp
+SGX Correction Scan — 2026-11-25 04:19 SGT (data: Yahoo/yfinance, delayed)
+US10Y 10-session change: -8bp
 
 [BREAK] OCBC 26.54  score 5/12
   RSI 25.3 | MACD hist -0.09 | CMF -0.022 | 20SMA 28.31
